@@ -20,6 +20,7 @@ def create_chat_completion(messages):
         api_version="2024-06-01",
         azure_endpoint = aoai_endpoint
     )
+    #g
     # Create and return a new chat completion request
     return client.chat.completions.create(
         model=aoai_deployment_name,
